@@ -47,11 +47,111 @@
             <div class="p-2 pt-md-4 pb-md-3 mx-auto text-center">
                 <h1 class="display-4">Your details</h1>
             </div>
+            
             <div class="row">
-                
+                <div class="col-md-8 offset-2">
+                    <h4 class="mb-3">Your address</h4>
+                    <form action="order.html" method="get">
+                        <div class="row">
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="firstName">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Your first name">
+                            </div>
+                            <div class="col-md-6 mb-3 form-group">
+                                <label for="lastName">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Your last name"
+                                    value="">
+                            </div>
+                        </div>
+                        <div class="mb-3 form-group">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="mb-3 form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Street name" >
+                        </div>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 form-group">
+                                    <label for="zipCode">Zip code</label>
+                                    <input type="text" class="form-control" id="zipCode" placeholder="Your zip code">
+                                </div>
+                                <div class="col-md-6 mb-3 form-group">
+                                    <label for="city">City</label>
+                                    <input type="text" class="form-control" id="city" placeholder="Your city">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-3 form-group">
+                                <label for="region">Region</label>
+                                <select class="custom-select w-100" id="region">
+                                    <option value="">Select region...</option>
+                                    <option>Not applicable</option>
+                                    <option>Hovedstaden</option>
+                                    <option>Sjælland</option>
+                                    <option>Syddanmark</option>
+                                    <option>Midtjylland</option>
+                                    <option>Nordjylland</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3 form-group">
+                                <label for="country">Country</label>
+                                <select class="custom-select w-100" id="country">
+                                    <option value="">Select country...</option>
+                                    <option>Denmark</option>
+                                    <option>Sweden</option>
+                                    <option>Germany</option>
+                                    <option>Norway</option>
+                                </select>
+                            </div>                            
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="remarks">Remarks</label>
+                                <textarea class="form-control" id="remarks" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="saveShipping">
+                                <label class="custom-control-label" for="saveShipping">Remember my shipping information</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Place your order!</button>
+                    </form>
+                </div>             
+
             </div>
         </div>
     </main>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
