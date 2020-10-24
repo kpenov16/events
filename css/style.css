@@ -8,6 +8,10 @@ body{
     background: url(../images/products/applepie.jpg) no-repeat fixed;
 }
 
+.jumbotron-other{
+    background: url(../images/delivery2.jpg) no-repeat fixed;
+}
+
 
 .jumbotron{
     height: 40vh;
