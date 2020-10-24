@@ -1,8 +1,15 @@
 body{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
     background-image: url(../images/seamless-pattern-5095737_640.png); 
     background-repeat: repeat;
+}
+.jumbotron-detail-apple-pie{
+    background: url(../images/products/applepie.jpg) no-repeat fixed;
+}
+
+
+.jumbotron{
+    height: 40vh;
+    background-size: cover;
 }
